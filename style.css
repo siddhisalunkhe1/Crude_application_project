@@ -1,0 +1,182 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    height: 100vh;
+    margin:0;
+
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    text-align: center;
+    animation: fadeIn 1s ease-in-out;
+
+}
+
+
+@keyframes fadeIn {
+    from {opacity: 0; transform: translateY(-20px);}
+    to { opacity: 1; transform: translateY(0);}
+}
+
+
+h1{
+    margin-bottom: 20px;
+    color: #333;
+    animation: fadeIn ease-in-out 0.5s;
+    animation-fill-mode: both;
+}
+  
+
+form {
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+}
+
+
+form input {
+    flex: 1;
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-right: 10px;
+    transition: border-color 0.3s;
+
+}
+
+
+form input:focus {
+    border-color: #0007bff;
+
+}
+
+
+form button{
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 4px;
+    cursor: white;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    animation: fadeIn 1s ease-in-out 1s;
+    animation-fill-mode: both;
+}
+
+
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    background-color: #fafafa;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    animation: slideIN 0.5s ease-in-out;
+}
+
+
+
+@keyframes slideIn {
+    from {opacity: 0; transform: translateX(-20px); }
+    to { opacity: 1; transform: translateX(0); }
+}
+
+
+li span {
+    flex: 1;
+    cursor: pointer;
+    font-size: 16px;
+
+}
+
+
+
+li input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+
+li button {
+    border: none;
+    background-color: #dc3545;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 5px 10px;
+    margin-left: 10px;
+    transition: background-color 0.3s;
+
+}
+
+
+li button.edit-btn {
+    background-color: #ffc107;
+}
+
+
+li button.edit-btn:hover{
+    background-color: #e0a800;
+}
+
+li button:hover {
+    background-color: #c82333;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
